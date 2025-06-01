@@ -2,7 +2,7 @@
 import React from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { Plug, Factory, Wrench, Lightbulb, Sun, Package, Chart } from 'lucide-react';
+import { Plug, Factory, Wrench, Lightbulb, Sun, Package, BarChart3 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Services = () => {
@@ -23,7 +23,7 @@ const Services = () => {
       description: 'Regular check-ups, panel cleaning, inverter servicing, and 24/7 technical support.'
     },
     {
-      icon: Chart,
+      icon: BarChart3,
       title: 'Consultation & Design',
       description: 'Energy assessment, feasibility studies, ROI planning, and custom system design.'
     },
