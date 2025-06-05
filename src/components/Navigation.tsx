@@ -23,7 +23,11 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Sun className="h-8 w-8 text-solar-orange" />
+            <img 
+              src="/lovable-uploads/7c106184-a8da-4107-9ba7-e29025c8cca9.png" 
+              alt="Avani Solar Logo" 
+              className="h-8 w-8"
+            />
             <span className="text-xl font-bold text-solar-blue">Avani Solar</span>
           </Link>
 

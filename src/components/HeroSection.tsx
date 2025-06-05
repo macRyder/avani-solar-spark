@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `linear-gradient(rgba(30, 64, 175, 0.7), rgba(30, 64, 175, 0.7)), url('https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`
+          backgroundImage: `linear-gradient(rgba(30, 64, 175, 0.7), rgba(30, 64, 175, 0.7)), url('https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`
         }}
       />
       
@@ -42,7 +42,7 @@ const HeroSection = () => {
           <Button 
             onClick={handleCall}
             variant="outline"
-            className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-solar-blue px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+            className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-blue-800 px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
           >
             <Phone className="mr-2 h-5 w-5" />
             Call Us Now
