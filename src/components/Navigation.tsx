@@ -65,7 +65,7 @@ const Navigation = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <a href="tel:+919783155554" className="flex items-center space-x-1 text-sm text-gray-600 hover:text-solar-blue">
               <Phone className="h-4 w-4" />
-              <span>+91-97831-55554</span>
+              <span>+91-97831-55554 | +91-99833-21552</span>
             </a>
           </div>
 
@@ -130,6 +130,13 @@ const Navigation = () => {
                 >
                   <Phone className="h-4 w-4" />
                   <span>+91-97831-55554</span>
+                </a>
+                <a 
+                  href="tel:+919983321552" 
+                  className="flex items-center space-x-2 px-3 py-2 text-sm text-gray-600 hover:text-solar-blue"
+                >
+                  <Phone className="h-4 w-4" />
+                  <span>+91-99833-21552</span>
                 </a>
               </div>
             </div>
