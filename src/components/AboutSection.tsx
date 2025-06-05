@@ -25,8 +25,8 @@ const AboutSection = () => {
           {/* Image */}
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <img
-              src="https://images.unsplash.com/photo-1472396961693-142e6e269027?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-              alt="Solar Installation Team"
+              src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              alt="Solar Panel Installation"
               className="rounded-lg shadow-lg w-full h-96 object-cover"
             />
           </div>

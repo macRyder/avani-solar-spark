@@ -43,17 +43,20 @@ const Services = () => {
     {
       location: 'Kota Residential',
       size: '5kW System',
-      savings: '₹8,000/month savings'
+      savings: '₹4,000/month savings',
+      image: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
     },
     {
       location: 'Bundi Commercial',
       size: '25kW System',
-      savings: '₹35,000/month savings'
+      savings: '₹20,000/month savings',
+      image: 'https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
     },
     {
       location: 'Baran Industrial',
       size: '100kW System',
-      savings: '₹1,20,000/month savings'
+      savings: '₹80,000/month savings',
+      image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
     }
   ];
 
@@ -125,8 +128,12 @@ const Services = () => {
                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="h-48 bg-gradient-to-br from-solar-blue to-solar-orange rounded-lg mb-4 flex items-center justify-center">
-                  <Sun className="h-16 w-16 text-white" />
+                <div className="h-48 rounded-lg mb-4 overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={`${project.location} Solar Project`}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{project.location}</h3>
                 <p className="text-gray-600 mb-1">{project.size}</p>

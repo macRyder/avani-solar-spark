@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   const handleEmail = () => {
-    window.location.href = 'mailto:info@avanisolar.in';
+    window.location.href = 'mailto:avani.solar.kota@gmail.com';
   };
 
   return (
@@ -75,7 +75,7 @@ const Footer = () => {
                 className="flex items-center space-x-2 text-gray-300 hover:text-solar-orange transition-colors"
               >
                 <Mail className="h-4 w-4" />
-                <span>info@avanisolar.in</span>
+                <span>avani.solar.kota@gmail.com</span>
               </button>
             </div>
           </div>

@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -60,7 +59,7 @@ const Contact = () => {
   };
 
   const handleEmail = () => {
-    window.location.href = 'mailto:info@avanisolar.in';
+    window.location.href = 'mailto:avani.solar.kota@gmail.com';
   };
 
   return (
@@ -113,7 +112,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                    <p className="text-gray-600">info@avanisolar.in</p>
+                    <p className="text-gray-600">avani.solar.kota@gmail.com</p>
                   </div>
                 </div>
 
