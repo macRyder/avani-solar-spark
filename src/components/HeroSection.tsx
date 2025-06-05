@@ -42,7 +42,7 @@ const HeroSection = () => {
           <Button 
             onClick={handleCall}
             variant="outline"
-            className="border-white text-white hover:bg-white hover:text-solar-blue px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
+            className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-solar-blue px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105"
           >
             <Phone className="mr-2 h-5 w-5" />
             Call Us Now
